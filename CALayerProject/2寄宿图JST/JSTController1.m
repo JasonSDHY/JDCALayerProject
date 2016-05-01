@@ -21,7 +21,30 @@
     
     UIImage *image = [UIImage imageNamed:@"2"];// 此处图片的格式需要是PNG
     
+    
+    // 1.在一个UIView上面设置图片
     self.layerView.layer.contents = (__bridge id)image.CGImage;
     
+    // 2.设置内容模式
+    self.layerView.contentMode = UIViewContentModeCenter; // 此属性不会让图片进行拉伸,使用可以通过控制contentsScale
+    
+    //set the contentsScale to match image
+    self.layerView.layer.contentsScale = image.scale;// 这个值和@2x 写法有关
+    
+    
+
+    
 }
+
+// 利用contentsCenter拉伸一个图片, 如果设置了模式UIViewContentModeCenter, 图片就不会拉伸
+- (void)addStretchableImage:(UIImage *)image withContentCenter:(CGRect)rect toLayer:(CALayer *)layer
+{
+    //set image
+    layer.contents = (__bridge id)image.CGImage;
+    
+    //set contentsCenter
+    layer.contentsCenter = rect;
+}
+
+
 @end
