@@ -16,8 +16,8 @@
 		96AAAB7B1CD5D6BF00EC0887 /* TCSLayerControllerText1.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AAAB781CD5D6BF00EC0887 /* TCSLayerControllerText1.m */; };
 		96AAAB7C1CD5D6BF00EC0887 /* TCSStroyBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AAAB791CD5D6BF00EC0887 /* TCSStroyBoard.storyboard */; };
 		96AAAB7E1CD5D6D000EC0887 /* JSTStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AAAB7D1CD5D6D000EC0887 /* JSTStoryboard.storyboard */; };
-		96AAAB801CD5D9B800EC0887 /* SnowBros.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96AAAB7F1CD5D9B800EC0887 /* SnowBros.jpg */; };
 		96AAAB831CD5D9E800EC0887 /* JSTController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AAAB821CD5D9E800EC0887 /* JSTController1.m */; };
+		96AAAB851CD5DBDC00EC0887 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AAAB841CD5DBDC00EC0887 /* 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,9 +35,9 @@
 		96AAAB781CD5D6BF00EC0887 /* TCSLayerControllerText1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCSLayerControllerText1.m; sourceTree = "<group>"; };
 		96AAAB791CD5D6BF00EC0887 /* TCSStroyBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TCSStroyBoard.storyboard; sourceTree = "<group>"; };
 		96AAAB7D1CD5D6D000EC0887 /* JSTStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JSTStoryboard.storyboard; sourceTree = "<group>"; };
-		96AAAB7F1CD5D9B800EC0887 /* SnowBros.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SnowBros.jpg; sourceTree = "<group>"; };
 		96AAAB811CD5D9E800EC0887 /* JSTController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTController1.h; sourceTree = "<group>"; };
 		96AAAB821CD5D9E800EC0887 /* JSTController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTController1.m; sourceTree = "<group>"; };
+		96AAAB841CD5DBDC00EC0887 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 		96AAAB7A1CD5D6BF00EC0887 /* 2寄宿图JST */ = {
 			isa = PBXGroup;
 			children = (
-				96AAAB7F1CD5D9B800EC0887 /* SnowBros.jpg */,
+				96AAAB841CD5DBDC00EC0887 /* 2.png */,
 				96AAAB7D1CD5D6D000EC0887 /* JSTStoryboard.storyboard */,
 				96AAAB811CD5D9E800EC0887 /* JSTController1.h */,
 				96AAAB821CD5D9E800EC0887 /* JSTController1.m */,
@@ -180,9 +180,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96AAAB851CD5DBDC00EC0887 /* 2.png in Resources */,
 				967DBBB31CD5D192007C4D35 /* LaunchScreen.storyboard in Resources */,
 				967DBBB01CD5D192007C4D35 /* Assets.xcassets in Resources */,
-				96AAAB801CD5D9B800EC0887 /* SnowBros.jpg in Resources */,
 				96AAAB7C1CD5D6BF00EC0887 /* TCSStroyBoard.storyboard in Resources */,
 				96AAAB7E1CD5D6D000EC0887 /* JSTStoryboard.storyboard in Resources */,
 				967DBBAE1CD5D192007C4D35 /* Main.storyboard in Resources */,

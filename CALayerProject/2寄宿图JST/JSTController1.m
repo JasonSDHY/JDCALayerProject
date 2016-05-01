@@ -19,7 +19,7 @@
     [super viewDidLoad];
     
     
-    UIImage *image = [UIImage imageNamed:@"SnowBros"];
+    UIImage *image = [UIImage imageNamed:@"2"];// 此处图片的格式需要是PNG
     
     self.layerView.layer.contents = (__bridge id)image.CGImage;
     
