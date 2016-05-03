@@ -18,6 +18,8 @@
 		96AAAB7E1CD5D6D000EC0887 /* JSTStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AAAB7D1CD5D6D000EC0887 /* JSTStoryboard.storyboard */; };
 		96AAAB831CD5D9E800EC0887 /* JSTController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AAAB821CD5D9E800EC0887 /* JSTController1.m */; };
 		96AAAB851CD5DBDC00EC0887 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AAAB841CD5DBDC00EC0887 /* 2.png */; };
+		96EAEF3D1CD87B25001B3401 /* JHXStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EAEF3C1CD87B25001B3401 /* JHXStoryboard.storyboard */; };
+		96EAEF401CD8811D001B3401 /* JHXClockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EAEF3F1CD8811D001B3401 /* JHXClockController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,9 @@
 		96AAAB811CD5D9E800EC0887 /* JSTController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTController1.h; sourceTree = "<group>"; };
 		96AAAB821CD5D9E800EC0887 /* JSTController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTController1.m; sourceTree = "<group>"; };
 		96AAAB841CD5DBDC00EC0887 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		96EAEF3C1CD87B25001B3401 /* JHXStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = JHXStoryboard.storyboard; path = ../../../../JasonSDHYGit/Refactoring/CommandPatterns/CommandPatterns/Command/JHXStoryboard.storyboard; sourceTree = "<group>"; };
+		96EAEF3E1CD8811D001B3401 /* JHXClockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHXClockController.h; path = "CALayerProject/3图层几何学JHX/JHXClockController.h"; sourceTree = SOURCE_ROOT; };
+		96EAEF3F1CD8811D001B3401 /* JHXClockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHXClockController.m; path = "CALayerProject/3图层几何学JHX/JHXClockController.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +77,7 @@
 			children = (
 				96AAAB761CD5D6BF00EC0887 /* 1图层树TCS */,
 				96AAAB7A1CD5D6BF00EC0887 /* 2寄宿图JST */,
+				96EAEF3B1CD87AF1001B3401 /* 3图层几何学JHX */,
 				967DBBBA1CD5D1AB007C4D35 /* Others */,
 				967DBBA61CD5D192007C4D35 /* AppDelegate.h */,
 				967DBBA71CD5D192007C4D35 /* AppDelegate.m */,
@@ -120,6 +126,17 @@
 				96AAAB821CD5D9E800EC0887 /* JSTController1.m */,
 			);
 			path = "2寄宿图JST";
+			sourceTree = "<group>";
+		};
+		96EAEF3B1CD87AF1001B3401 /* 3图层几何学JHX */ = {
+			isa = PBXGroup;
+			children = (
+				96EAEF3C1CD87B25001B3401 /* JHXStoryboard.storyboard */,
+				96EAEF3E1CD8811D001B3401 /* JHXClockController.h */,
+				96EAEF3F1CD8811D001B3401 /* JHXClockController.m */,
+			);
+			name = "3图层几何学JHX";
+			path = "3图层几何学";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +201,7 @@
 				967DBBB31CD5D192007C4D35 /* LaunchScreen.storyboard in Resources */,
 				967DBBB01CD5D192007C4D35 /* Assets.xcassets in Resources */,
 				96AAAB7C1CD5D6BF00EC0887 /* TCSStroyBoard.storyboard in Resources */,
+				96EAEF3D1CD87B25001B3401 /* JHXStoryboard.storyboard in Resources */,
 				96AAAB7E1CD5D6D000EC0887 /* JSTStoryboard.storyboard in Resources */,
 				967DBBAE1CD5D192007C4D35 /* Main.storyboard in Resources */,
 			);
@@ -201,6 +219,7 @@
 				96AAAB831CD5D9E800EC0887 /* JSTController1.m in Sources */,
 				967DBBA81CD5D192007C4D35 /* AppDelegate.m in Sources */,
 				967DBBA51CD5D192007C4D35 /* main.m in Sources */,
+				96EAEF401CD8811D001B3401 /* JHXClockController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
