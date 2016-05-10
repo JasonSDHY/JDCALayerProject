@@ -16,7 +16,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // Override point for cu stomization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    // 设置根控制器
+    self.window.rootViewController = [[NSClassFromString(@"BHViewController") alloc] init];
+   
+
+    
     return YES;
 }
 

@@ -18,8 +18,9 @@
 		96AAAB7E1CD5D6D000EC0887 /* JSTStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AAAB7D1CD5D6D000EC0887 /* JSTStoryboard.storyboard */; };
 		96AAAB831CD5D9E800EC0887 /* JSTController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AAAB821CD5D9E800EC0887 /* JSTController1.m */; };
 		96AAAB851CD5DBDC00EC0887 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AAAB841CD5DBDC00EC0887 /* 2.png */; };
-		96EAEF3D1CD87B25001B3401 /* JHXStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EAEF3C1CD87B25001B3401 /* JHXStoryboard.storyboard */; };
 		96EAEF401CD8811D001B3401 /* JHXClockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EAEF3F1CD8811D001B3401 /* JHXClockController.m */; };
+		96ED6EF51CDCA43200965D30 /* BHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ED6EF31CDCA43200965D30 /* BHViewController.m */; };
+		96ED6EF61CDCA43200965D30 /* BHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96ED6EF41CDCA43200965D30 /* BHViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,9 +41,11 @@
 		96AAAB811CD5D9E800EC0887 /* JSTController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTController1.h; sourceTree = "<group>"; };
 		96AAAB821CD5D9E800EC0887 /* JSTController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTController1.m; sourceTree = "<group>"; };
 		96AAAB841CD5DBDC00EC0887 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		96EAEF3C1CD87B25001B3401 /* JHXStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = JHXStoryboard.storyboard; path = ../../../../JasonSDHYGit/Refactoring/CommandPatterns/CommandPatterns/Command/JHXStoryboard.storyboard; sourceTree = "<group>"; };
 		96EAEF3E1CD8811D001B3401 /* JHXClockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHXClockController.h; path = "CALayerProject/3图层几何学JHX/JHXClockController.h"; sourceTree = SOURCE_ROOT; };
 		96EAEF3F1CD8811D001B3401 /* JHXClockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHXClockController.m; path = "CALayerProject/3图层几何学JHX/JHXClockController.m"; sourceTree = SOURCE_ROOT; };
+		96ED6EF21CDCA43200965D30 /* BHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHViewController.h; sourceTree = "<group>"; };
+		96ED6EF31CDCA43200965D30 /* BHViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHViewController.m; sourceTree = "<group>"; };
+		96ED6EF41CDCA43200965D30 /* BHViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BHViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 				96AAAB761CD5D6BF00EC0887 /* 1图层树TCS */,
 				96AAAB7A1CD5D6BF00EC0887 /* 2寄宿图JST */,
 				96EAEF3B1CD87AF1001B3401 /* 3图层几何学JHX */,
+				96ED6EF11CDCA41300965D30 /* 5变化BH */,
 				967DBBBA1CD5D1AB007C4D35 /* Others */,
 				967DBBA61CD5D192007C4D35 /* AppDelegate.h */,
 				967DBBA71CD5D192007C4D35 /* AppDelegate.m */,
@@ -131,12 +135,21 @@
 		96EAEF3B1CD87AF1001B3401 /* 3图层几何学JHX */ = {
 			isa = PBXGroup;
 			children = (
-				96EAEF3C1CD87B25001B3401 /* JHXStoryboard.storyboard */,
 				96EAEF3E1CD8811D001B3401 /* JHXClockController.h */,
 				96EAEF3F1CD8811D001B3401 /* JHXClockController.m */,
 			);
 			name = "3图层几何学JHX";
 			path = "3图层几何学";
+			sourceTree = "<group>";
+		};
+		96ED6EF11CDCA41300965D30 /* 5变化BH */ = {
+			isa = PBXGroup;
+			children = (
+				96ED6EF21CDCA43200965D30 /* BHViewController.h */,
+				96ED6EF31CDCA43200965D30 /* BHViewController.m */,
+				96ED6EF41CDCA43200965D30 /* BHViewController.xib */,
+			);
+			path = "5变化BH";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,10 +211,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				96AAAB851CD5DBDC00EC0887 /* 2.png in Resources */,
+				96ED6EF61CDCA43200965D30 /* BHViewController.xib in Resources */,
 				967DBBB31CD5D192007C4D35 /* LaunchScreen.storyboard in Resources */,
 				967DBBB01CD5D192007C4D35 /* Assets.xcassets in Resources */,
 				96AAAB7C1CD5D6BF00EC0887 /* TCSStroyBoard.storyboard in Resources */,
-				96EAEF3D1CD87B25001B3401 /* JHXStoryboard.storyboard in Resources */,
 				96AAAB7E1CD5D6D000EC0887 /* JSTStoryboard.storyboard in Resources */,
 				967DBBAE1CD5D192007C4D35 /* Main.storyboard in Resources */,
 			);
@@ -218,6 +231,7 @@
 				96AAAB7B1CD5D6BF00EC0887 /* TCSLayerControllerText1.m in Sources */,
 				96AAAB831CD5D9E800EC0887 /* JSTController1.m in Sources */,
 				967DBBA81CD5D192007C4D35 /* AppDelegate.m in Sources */,
+				96ED6EF51CDCA43200965D30 /* BHViewController.m in Sources */,
 				967DBBA51CD5D192007C4D35 /* main.m in Sources */,
 				96EAEF401CD8811D001B3401 /* JHXClockController.m in Sources */,
 			);
