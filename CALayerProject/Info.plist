@@ -24,8 +24,6 @@
 	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>TCSViewControllerTest1</string>
-	<key>UIMainStoryboardFile</key>
-	<string>JSTStoryboard</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
