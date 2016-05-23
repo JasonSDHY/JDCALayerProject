@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9606C0971CE33DA400284BFF /* ZYTCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9606C0951CE33DA400284BFF /* ZYTCViewController.m */; };
+		9606C0981CE33DA400284BFF /* ZYTCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9606C0961CE33DA400284BFF /* ZYTCViewController.xib */; };
+		96516EBB1CF2DBDA0020C364 /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96516EBA1CF2DBDA0020C364 /* LayerLabel.m */; };
+		96516EBE1CF2EF440020C364 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96516EBD1CF2EF440020C364 /* ReflectionView.m */; };
+		96516EC01CF2F8740020C364 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 96516EBF1CF2F8740020C364 /* 3.png */; };
 		967DBBA51CD5D192007C4D35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 967DBBA41CD5D192007C4D35 /* main.m */; };
 		967DBBA81CD5D192007C4D35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 967DBBA71CD5D192007C4D35 /* AppDelegate.m */; };
 		967DBBAB1CD5D192007C4D35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967DBBAA1CD5D192007C4D35 /* ViewController.m */; };
@@ -18,12 +23,21 @@
 		96AAAB7E1CD5D6D000EC0887 /* JSTStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AAAB7D1CD5D6D000EC0887 /* JSTStoryboard.storyboard */; };
 		96AAAB831CD5D9E800EC0887 /* JSTController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AAAB821CD5D9E800EC0887 /* JSTController1.m */; };
 		96AAAB851CD5DBDC00EC0887 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 96AAAB841CD5DBDC00EC0887 /* 2.png */; };
+		96BA94CE1CE9B54E005DAD6C /* UIImage+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 96BA94CD1CE9B54E005DAD6C /* UIImage+CornerRadius.m */; };
 		96EAEF401CD8811D001B3401 /* JHXClockController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96EAEF3F1CD8811D001B3401 /* JHXClockController.m */; };
 		96ED6EF51CDCA43200965D30 /* BHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ED6EF31CDCA43200965D30 /* BHViewController.m */; };
 		96ED6EF61CDCA43200965D30 /* BHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96ED6EF41CDCA43200965D30 /* BHViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9606C0941CE33DA400284BFF /* ZYTCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTCViewController.h; sourceTree = "<group>"; };
+		9606C0951CE33DA400284BFF /* ZYTCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTCViewController.m; sourceTree = "<group>"; };
+		9606C0961CE33DA400284BFF /* ZYTCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYTCViewController.xib; sourceTree = "<group>"; };
+		96516EB91CF2DBDA0020C364 /* LayerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerLabel.h; sourceTree = "<group>"; };
+		96516EBA1CF2DBDA0020C364 /* LayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
+		96516EBC1CF2EF440020C364 /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		96516EBD1CF2EF440020C364 /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		96516EBF1CF2F8740020C364 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		967DBBA01CD5D192007C4D35 /* CALayerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALayerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		967DBBA41CD5D192007C4D35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		967DBBA61CD5D192007C4D35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,6 +55,8 @@
 		96AAAB811CD5D9E800EC0887 /* JSTController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSTController1.h; sourceTree = "<group>"; };
 		96AAAB821CD5D9E800EC0887 /* JSTController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSTController1.m; sourceTree = "<group>"; };
 		96AAAB841CD5DBDC00EC0887 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		96BA94CC1CE9B54E005DAD6C /* UIImage+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CornerRadius.h"; sourceTree = "<group>"; };
+		96BA94CD1CE9B54E005DAD6C /* UIImage+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CornerRadius.m"; sourceTree = "<group>"; };
 		96EAEF3E1CD8811D001B3401 /* JHXClockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JHXClockController.h; path = "CALayerProject/3图层几何学JHX/JHXClockController.h"; sourceTree = SOURCE_ROOT; };
 		96EAEF3F1CD8811D001B3401 /* JHXClockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JHXClockController.m; path = "CALayerProject/3图层几何学JHX/JHXClockController.m"; sourceTree = SOURCE_ROOT; };
 		96ED6EF21CDCA43200965D30 /* BHViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHViewController.h; sourceTree = "<group>"; };
@@ -59,6 +75,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9606C0931CE33D9800284BFF /* 6专用图层 */ = {
+			isa = PBXGroup;
+			children = (
+				9606C0941CE33DA400284BFF /* ZYTCViewController.h */,
+				9606C0951CE33DA400284BFF /* ZYTCViewController.m */,
+				9606C0961CE33DA400284BFF /* ZYTCViewController.xib */,
+				96516EB91CF2DBDA0020C364 /* LayerLabel.h */,
+				96516EBA1CF2DBDA0020C364 /* LayerLabel.m */,
+				96516EBC1CF2EF440020C364 /* ReflectionView.h */,
+				96516EBD1CF2EF440020C364 /* ReflectionView.m */,
+			);
+			path = "6专用图层";
+			sourceTree = "<group>";
+		};
 		967DBB971CD5D192007C4D35 = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +108,12 @@
 		967DBBA21CD5D192007C4D35 /* CALayerProject */ = {
 			isa = PBXGroup;
 			children = (
+				96516EBF1CF2F8740020C364 /* 3.png */,
 				96AAAB761CD5D6BF00EC0887 /* 1图层树TCS */,
 				96AAAB7A1CD5D6BF00EC0887 /* 2寄宿图JST */,
 				96EAEF3B1CD87AF1001B3401 /* 3图层几何学JHX */,
 				96ED6EF11CDCA41300965D30 /* 5变化BH */,
+				9606C0931CE33D9800284BFF /* 6专用图层 */,
 				967DBBBA1CD5D1AB007C4D35 /* Others */,
 				967DBBA61CD5D192007C4D35 /* AppDelegate.h */,
 				967DBBA71CD5D192007C4D35 /* AppDelegate.m */,
@@ -128,6 +160,8 @@
 				96AAAB7D1CD5D6D000EC0887 /* JSTStoryboard.storyboard */,
 				96AAAB811CD5D9E800EC0887 /* JSTController1.h */,
 				96AAAB821CD5D9E800EC0887 /* JSTController1.m */,
+				96BA94CC1CE9B54E005DAD6C /* UIImage+CornerRadius.h */,
+				96BA94CD1CE9B54E005DAD6C /* UIImage+CornerRadius.m */,
 			);
 			path = "2寄宿图JST";
 			sourceTree = "<group>";
@@ -183,7 +217,6 @@
 				TargetAttributes = {
 					967DBB9F1CD5D192007C4D35 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 5R7QX8YA8E;
 					};
 				};
 			};
@@ -210,8 +243,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9606C0981CE33DA400284BFF /* ZYTCViewController.xib in Resources */,
 				96AAAB851CD5DBDC00EC0887 /* 2.png in Resources */,
 				96ED6EF61CDCA43200965D30 /* BHViewController.xib in Resources */,
+				96516EC01CF2F8740020C364 /* 3.png in Resources */,
 				967DBBB31CD5D192007C4D35 /* LaunchScreen.storyboard in Resources */,
 				967DBBB01CD5D192007C4D35 /* Assets.xcassets in Resources */,
 				96AAAB7C1CD5D6BF00EC0887 /* TCSStroyBoard.storyboard in Resources */,
@@ -227,12 +262,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9606C0971CE33DA400284BFF /* ZYTCViewController.m in Sources */,
 				967DBBAB1CD5D192007C4D35 /* ViewController.m in Sources */,
+				96516EBE1CF2EF440020C364 /* ReflectionView.m in Sources */,
 				96AAAB7B1CD5D6BF00EC0887 /* TCSLayerControllerText1.m in Sources */,
 				96AAAB831CD5D9E800EC0887 /* JSTController1.m in Sources */,
 				967DBBA81CD5D192007C4D35 /* AppDelegate.m in Sources */,
 				96ED6EF51CDCA43200965D30 /* BHViewController.m in Sources */,
+				96516EBB1CF2DBDA0020C364 /* LayerLabel.m in Sources */,
 				967DBBA51CD5D192007C4D35 /* main.m in Sources */,
+				96BA94CE1CE9B54E005DAD6C /* UIImage+CornerRadius.m in Sources */,
 				96EAEF401CD8811D001B3401 /* JHXClockController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,6 +384,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CALayerProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efetion.CALayerProject;
@@ -356,6 +396,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CALayerProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.efetion.CALayerProject;

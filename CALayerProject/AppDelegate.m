@@ -19,10 +19,9 @@
     // Override point for cu stomization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     // 设置根控制器
-    self.window.rootViewController = [[NSClassFromString(@"BHViewController") alloc] init];
-   
-
-    
+    self.window.rootViewController = [[NSClassFromString(@"ZYTCViewController") alloc] init];
+    [self.window makeKeyAndVisible];
+  
     return YES;
 }
 
