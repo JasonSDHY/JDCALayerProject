@@ -12,6 +12,7 @@
 		96516EBB1CF2DBDA0020C364 /* LayerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96516EBA1CF2DBDA0020C364 /* LayerLabel.m */; };
 		96516EBE1CF2EF440020C364 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96516EBD1CF2EF440020C364 /* ReflectionView.m */; };
 		96516EC21CF2FDC40020C364 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 96516EC11CF2FDC40020C364 /* 3.png */; };
+
 		967DBBA51CD5D192007C4D35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 967DBBA41CD5D192007C4D35 /* main.m */; };
 		967DBBA81CD5D192007C4D35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 967DBBA71CD5D192007C4D35 /* AppDelegate.m */; };
 		967DBBAB1CD5D192007C4D35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 967DBBAA1CD5D192007C4D35 /* ViewController.m */; };
@@ -37,7 +38,7 @@
 		96516EBA1CF2DBDA0020C364 /* LayerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerLabel.m; sourceTree = "<group>"; };
 		96516EBC1CF2EF440020C364 /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
 		96516EBD1CF2EF440020C364 /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
-		96516EC11CF2FDC40020C364 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		96516EC11CF2FDC40020C364 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree =
 		967DBBA01CD5D192007C4D35 /* CALayerProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALayerProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		967DBBA41CD5D192007C4D35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		967DBBA61CD5D192007C4D35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +110,7 @@
 		967DBBA21CD5D192007C4D35 /* CALayerProject */ = {
 			isa = PBXGroup;
 			children = (
+				96516EBF1CF2F8740020C364 /* 3.png */,
 				96AAAB761CD5D6BF00EC0887 /* 1图层树TCS */,
 				96AAAB7A1CD5D6BF00EC0887 /* 2寄宿图JST */,
 				96EAEF3B1CD87AF1001B3401 /* 3图层几何学JHX */,
